@@ -2,11 +2,71 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="¡Conocé qué servicios tenemos para ofrecerte!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header class="main-header">
+        <div class="main-header__social-media">
+            <a href="https://instagram.com">Instagram</a>
+            <a href="https://youtube.com">YouTube</a>
+            <a href="https://x.com">X</a>
+        </div>
+        <div class="main-header__horarios">
+            Lun a Vie 10 a 18h
+        </div>
+        <div class="main-header__carrito-container">
+            <a href="carrito.html" title="Carrito">🛒</a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
     <h1>Servicios</h1>
+
+    <h2>Clásicos</h2>
+    <ul>
+        <li>Lorem ipsum accusamus totam amet.</li>
+        <li>Praesentium numquam tempora libero culpa?</li>
+        <li>Cumque facere similique?</li>
+    </ul>
+
+    <h2>Nuevos</h2>
+    <ul>
+        <li>Odit fugit cum?</li>
+        <li>Earum similique nostrum soluta accusamus alias maxime!</li>        
+    </ul>
     
+    <footer>
+        <form class="form-footer" action="/consultar.html" autocomplete="off">
+            <div class="row">
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" type="text" name="nombre" placeholder="Ej: Martín">
+            </div>
+
+            <div class="row">
+                <label for="email">E-mail:</label>
+                <input id="email"# type="text" name="email" placeholder="Ej: martin123@gmail.com">
+            </div>
+
+            <div class="row">
+                <label for="consulta">Consulta:</label>
+                <textarea id="consulta" name="consulta" placeholder="Ej: ¿Realizan envíos a todo el país?"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar consulta">
+            <input type="reset" value="Restablecer el formulario">
+        </form>
+        <p>&copy; 2024 - Todos los derechos reservados</p>
+        <p>Contacto: (011) 4000-5000 | <a href="mailto:info@empresa.com">info@empresa.com</a></p>
+        <p>Desarrollado por <a href="https://miestudio.com">MiEstudio</a></p>
+    </footer>
 </body>
 </html>
